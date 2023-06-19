@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/templates-browser",
+  "category": "gutenify",
+  "title": "Templates Browser",
+  "version": "2",
+  "attributes": {
+    "isTemplatesModalOnly": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "editorScript": [
+    "gutenify-components",
+    "gutenify--templates-browser"
+  ],
+  "editorStyle": [
+    "gutenify-components",
+    "gutenify--templates-browser--editor"
+  ]
+}
